@@ -2,7 +2,7 @@
 
 ---
 
-<img src="Qubesosoverviewv2.jpg" style="width: 50%;">
+<img src="Qubesosoverviewv2.jpg" style="width: 70%;">
 
 0. 익명성, 항상 침목과 자신과의 비밀을 존중, 실수 하지 않기, 무감정 
 1. 노트북 또는 라즈베리파이, 기타 서브 컴퓨터 사용 (자신의 컴퓨터 절대 사용금지)
