@@ -43,7 +43,14 @@ Qubes가 유일하게 MAC 주소 익명화를 제공하기 때문이다.<p>
 </br>
 
 ---
+## 저장 매체
 
+Nitrokey Storage 2 (오픈소스 : 개인정보 수집을 하지 않기 때문) <p>
+yubikey (오픈소스가 아님) <p>
+5 NFC가 활성화된 Bitwarden
+
+---
+  
 ## 유료 VPN
 
 mullvad VPN, Protonvpn  사용 (타 VPN 소유중 이라면 VPN + Tor)<p>
@@ -58,23 +65,21 @@ https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leak
 
 
 ## 파일 업로드
-
+<br>
+대용량 CDN 파일 전송 (2주 무료) / 익명 이메일 사용<p>
 [Bunny CDN | Hop on the Fastest Content Delivery Network!]
 (https://bunny.net)
-<p>
-대용량 CDN 파일 전송 (2주 무료) / 익명 이메일 사용 
+<br>
   
-<p>
+익명 파일 업로더
 [Anonymous File Upload]
-(https://anonfiles.com/)
-<p>
-익명 파일 업로드
-
-<p>
+(https://anonfiles.com/)<p>
+<br>
+  
+파일 바이러스 검사 (파일 내려받을때 검사 필수)<p>
 [VirusTotal]
-(https://www.virustotal.com/gui/home/upload)
-<p>
-파일 바이러스 검사 (파일 내려받을때 검사 필수)
+(https://www.virustotal.com/gui/home/upload)<p>
+
 
 ---
   
@@ -106,14 +111,6 @@ https://tutanota.com/ <p>
 Protonmail <p>
 https://proton.me/ <p>
 랜덤 아이디/패스워드 이용 <p>
-
----
-  
-## 저장 매체
-
-Nitrokey Storage 2 <p>
-yubikey (오픈소스가 아님) <p>
-5 NFC가 활성화된 Bitwarden
 
 ---
   
