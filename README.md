@@ -19,16 +19,39 @@
 12. 암호 기록시 BitWarden 이용 
 13. 하드, 등 기억장치를 빠르게 날릴수 있는 버튼 설정 
 
-## Opsec 백서 2022 한국어 (Made by monix)
+## Opsec 백서 2022 한국어 
+
+---
+
+## 기기 및 운영체제
+
+자신의 컴퓨터는 절대 사용하면 안될것<p>
+노트북 또는 X86 지원되는 SBC 사용한다.<p> 
+<br>
+ODYSSEY - X86J4105 (이 제품은 실제로 Qubes를 구현해낸 x86 SBC이다.)<p>
+(https://www.seeedstudio.com/blog/2020/05/26/qubes-os-security-oriented-operating-system-and-run-qubes-os-on-odyssey-x86j4105/)<p>
+ODROID - H3+ (이 제품은 최근이 나온 x86모델중 사양이 가장 좋다.)<p>
+이외에도 라떼판다, RockPI 등이 있다.
+<br>
+노트북은 중고 제품 써도 된다. 그리 좋은 사양은 필요 없다.<p>
+일반적으로 공용 와이파이를 사용하거나 AirCard 사용하는것이 좋다.<p> 
+<br>
+권장 OS는 Whonix, Qubes, Tails 이렇게 3가지 이다.<p>
+보통 VM를 통해서 Whonix+Kali 환경을 사용하는 것을 추천한다.<p>
+추가적으로 MAC주소 노출에 민감하다면 Qubes+Whonix 환경을 세팅하면된다.<p>
+Qubes가 유일하게 MAC 주소 익명화를 제공하기 때문이다.<p>
+</br>
+
+---
 
 ## 유료 VPN
 
 mullvad VPN, Protonvpn  사용 (타 VPN 소유중 이라면 VPN + Tor)<p>
-<p>
+<br>
 (무료 VPN은 절대금지!!)<p>
 (mullvad VPN 경우 제 3자를 통해 구입 XMR 지불 하는것이 안전)<p>
+<br>
 https://digitalgoods.proxysto.re/
-
 https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/
 
 ---
