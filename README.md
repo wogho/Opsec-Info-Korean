@@ -78,20 +78,41 @@ veracrypt 통해 디스크를 "완전한 암호"으로 암호화 한다.<p>
 하지만 컴퓨터나 휴대폰을 켜져 있는 동안 기기의 "메모리(RAM)에 비밀번호가 임시 저장"돼 있어,
 
 "위기 순간" 이 오면 전원을 내린 후 RAM에 있는 것들이 날아갈 때까지 시간을 끄는 것 이 생존 가능성을 높이는 길입니다...
+  
+  
 ---
   
 ## VPN
 
-mullvad VPN, Protonvpn 사용 한다.<p>
-무료 VPN은 절대 사용하면 안된다.<p>
+mullvad VPN, Protonvpn 사용 한다. (무료 VPN은 절대 사용하면 안된다.)<p>
+mullvad VPN은 모든 VPN 중 유일하게 정보 유출이 된 기록이 없다. <p>
+https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/<p>
 <br>
-(mullvad VPN 경우 제 3자를 통해 구입 XMR 지불 하는것이 안전)<p>
+(mullvad VPN는 제 3자를 통해 구입 하는것이 더욱 안전)<p>
+https://digitalgoods.proxysto.re/<p>
 <br>
-https://digitalgoods.proxysto.re/
-https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/
+실수로 잠시 동안 VPN을 사용하지 않으면<p>
+때에 따라 다르지만, VPN을 켜고 웹사이트를 탐색 중<p>
+"극비 익명 전자 메일 주소" 계정에 로그인한 기록이 브라우저 쿠키가 남을 수 있다.<p>
+그러고 나서 VPN 연결을 끊으면 브라우저가 이 서버에 HTTP 요청하게 된다.<p>
+<br> 
+즉, 쿠키는 똑같이 해당 서버의 웹 사이트에서 보내지게 된다.<p>
+그들은 당신의 쿠키가 독일에서 나온 것을 보았고, 그 다음에는 캐나다, 등 기타 국가<p>
+그렇게 돌고돌아 당신의 "진짜 위치"가 어디에 있는지 볼수 있게 되는것이다.<p>
+<br>
+실크로드의 다크웹 마약 거래 플랫폼을 운영하던 사람이,<p>
+실제 IP 주소 환경에서 IRC 계정에 로그인한 것 때문에 잡힌 것이다.<p>
+그가 다크웹에서 그렇게 유명한 사업을 운영하고 있었기 때문에, 그의 계정들은 면밀히 감시되었고<p>
+그가 한 번 실수로 인해 그의 진짜 IP 주소를 유출시킨 것이 그를 잡는데 도움이 되었다.<p>
+<br>
+VPN을 사용하지 않고 모든 요청을 거부하는 킬 스위치(Always On VPN) 수단이 있어야 한다.<p>
+터널링 절차 때문에 OpenVPN을 사용하면 쉽다. 필수는 아니지만 실제 IP를 유출하고 네트워크를 노출하지 않는것으로 적극 권장한다.<p>
+또한 적절한 방화벽 규칙을 통해 네트워크에 연결하고 해당 VPN 호스트를 통해서만 인터넷에 연결할 수 있도록 구성한다.<p>
+<br>
+  <b>최적의 솔루션은 OpenVPN + Mullvad + Tor</b>
+  
+  
 
-
-VPN을 사용하지 않고 모든 요청을 거부하는 킬 스위치(Always On VPN)
 ---
 
 
