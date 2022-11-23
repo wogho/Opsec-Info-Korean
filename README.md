@@ -150,9 +150,9 @@ Railgun Aztec(zk.money)와 SCRT
   
 ## 대화 매체
 
-Nicegram (텔레그램) 이용<p>
+Nicegram (텔레그램) 이용 (자기 번호 절대 금지)<p>
 https://my.nicegram.app/login?lng=ko <p>
-자기 번호 절대 금지<p>
+
 
 ---
   
