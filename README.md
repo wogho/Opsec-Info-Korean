@@ -80,16 +80,18 @@ veracrypt 통해 디스크를 "완전한 암호"으로 암호화 한다.<p>
 "위기 순간" 이 오면 전원을 내린 후 RAM에 있는 것들이 날아갈 때까지 시간을 끄는 것 이 생존 가능성을 높이는 길입니다...
 ---
   
-## 유료 VPN
+## VPN
 
-mullvad VPN, Protonvpn  사용 (타 VPN 소유중 이라면 VPN + Tor)<p>
+mullvad VPN, Protonvpn 사용 한다.<p>
+무료 VPN은 절대 사용하면 안된다.<p>
 <br>
-(무료 VPN은 절대금지!!)<p>
 (mullvad VPN 경우 제 3자를 통해 구입 XMR 지불 하는것이 안전)<p>
 <br>
 https://digitalgoods.proxysto.re/
 https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/
 
+
+VPN을 사용하지 않고 모든 요청을 거부하는 킬 스위치(Always On VPN)
 ---
 
 
