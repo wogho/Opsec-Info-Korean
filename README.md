@@ -160,9 +160,11 @@ https://my.nicegram.app/login?lng=ko <p>
 
 Tutanota <p>
 https://tutanota.com/ <p>
+<br>
 Protonmail <p>
 https://proton.me/ <p>
-랜덤 아이디/패스워드 이용 <p>
+<br>
+가입 시 랜덤 아이디/패스워드 이용 (늘 사용하던건 금지) <p>
 
 ---
   
