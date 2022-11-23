@@ -119,12 +119,11 @@ VPN을 사용하지 않고 모든 요청을 거부하는 킬 스위치(Always On
 ## 파일 업로드
 <br>
 대용량 CDN 파일 전송 (2주 무료) / 익명 이메일 사용<p>
-[Bunny CDN | Hop on the Fastest Content Delivery Network!]
-(https://bunny.net)
+[Bunny CDN | Hop on the Fastest Content Delivery Network!]<p>
+(https://bunny.net)<p>
 <br>
-  
-익명 파일 업로더
-[Anonymous File Upload]
+익명 파일 업로더<p>
+[Anonymous File Upload]<p>
 (https://anonfiles.com/)<p>
 <br>
   
@@ -137,11 +136,12 @@ VPN을 사용하지 않고 모든 요청을 거부하는 킬 스위치(Always On
   
 ## 비트코인 거래시
 
-XHV 또는 XMR(모네로) 사용
-
+XHV 또는 XMR(모네로) 사용<p>
+<br>
 [온라인 지갑]<p>
 Railgun Aztec(zk.money)와 SCRT
 [Overview - Safe](https://gnosis-safe.io/)<p>
+<br>
 [하드웨어 지갑]<p>
 [Ledger](https://shop.ledger.com/products/ledger-nano-x?r=8b49b9c6f1fe&tracker=checklist),
 [Trezor](https://shop.trezor.io/?offer_id=10&aff_id=1181)
