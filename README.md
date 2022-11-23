@@ -45,6 +45,32 @@ IP 주소 관리하는 곳에서 IP 주소를 위도/경도 위치로 전환할 
 일반적으로 주거용 인터넷 소비자인 경우 해당 주소를 소유한 ISP를 볼 수 있고<p>
 연방 정부는 주어진 시간에 해당 주소를 임대한 회사에 물어보기만 하면<p>
 주거지의 특정 아파트 번호로 연결될 수 있기 때문 입니다.<p>
+<br>
+[Wi-Fi 및 Bluetooth]<p>
+<br>
+Wi-Fi 및 Bluetooth는 작동 중에 고유 식별자(MAC)를 유출 됩니다.<p>
+항상 그렇지는 않지만 임의적이며 때로는 그렇지 않다.<p>
+이러한 식별자는 근처 스니퍼에 의해 기록될 수 있으며<p>
+이러한 스니퍼가 연결되면 사용자의 움직임에 대해서도 알 수 있습니다.<p>
+<br>
+이 문제를 해결할 방법은 현재 완전한 방법은 없으나<p>
+<b>현재 Bluetooth는 완화할 수 없으며 비활성화만 가능합니다(BLE 포함 - 별도의 설정임).</b><p>
+모든 Wi-Fi 클라이언트는 알려진 모든 SSID(및 BSSID)를 브로드캐스트하여 근처 AP에 연결합니다.<p>
+또한 모든 레거시 클라이언트에는 고유한 MAC이 있습니다. 따라서 다음을 수행해야 합니다.<p>
+<br>
+<b>- MAC주소 무작위 변경 (Qubes OS 지원)</b>
+  
+<b>- 네트워크 프로브의 MAC을 무작위로 지정하는 Android 9 이상 사용(빌드에 따라 개발자 설정에 있거나 없을 수 있음)</b>
+
+<b>- AP를 가장 일반적인 AP로 설정 하고 정기적으로 스크립트(OpenWRT)를 사용하여 BSSID를 변경하면 AP 매핑에도 도움이 됩니다.</b>
+
+후자의 대안은 자동 전환기를 사용하는 것입니다.
+
+https://f-droid.org/en/packages/be.uhasselt.privacypolice/
+
+https://f-droid.org/en/packages/net.kismetwireless.android.smarterwifimanager/
+
+https://f-droid.org/en/packages/org.secuso.privacyfriendlywifimanager/
   
 ---
 
@@ -65,7 +91,8 @@ ODROID - H3+ (이 제품은 최근이 나온 x86모델중 사양이 가장 좋�
 보통 VM를 통해서 Whonix+Kali 환경을 사용하는 것을 추천한다.<p>
 추가적으로 MAC주소 노출에 민감하다면 Qubes+Whonix 환경을 세팅하면된다.<p>
 Qubes가 유일하게 MAC 주소 익명화를 제공하기 때문이다.<p>
-윈도우는 절대 사용하지 말것.
+https://github.com/Qubes-Community/Contents/blob/master/docs/privacy/anonymizing-your-mac-address.md<p>
+윈도우는 절대 사용하지 말것.<p>
 </br>
 
 ---
@@ -174,7 +201,8 @@ Railgun Aztec(zk.money)와 SCRT
 ---
   
 ## 대화 매체
-
+IRC 기반 채널 채팅 (권장)<p>
+<br>
 Nicegram (텔레그램) 이용 (자기 번호 절대 금지)<p>
 https://my.nicegram.app/login?lng=ko <p>
 
